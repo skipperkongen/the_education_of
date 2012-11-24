@@ -4,8 +4,8 @@ Install via `pip install cython`
 
 ## Read the following:
 
-[basic tutorial](http://docs.cython.org/src/userguide/tutorial.html)
-[language basics](http://docs.cython.org/src/userguide/language_basics.html)
+* [basic tutorial](http://docs.cython.org/src/userguide/tutorial.html)
+* [language basics](http://docs.cython.org/src/userguide/language_basics.html)
 
 ## Verdict
 
