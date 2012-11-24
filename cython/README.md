@@ -4,8 +4,15 @@ Install via `pip install cython`
 
 ## Read the following:
 
+On Cython website
+
 * [basic tutorial](http://docs.cython.org/src/userguide/tutorial.html)
 * [language basics](http://docs.cython.org/src/userguide/language_basics.html)
+* [early binding](http://docs.cython.org/src/userguide/early_binding_for_speed.html#early-binding-for-speed)
+
+On Stackoverflow:
+
+* [Wrapping a C library in Python: C, Cython or ctypes?](http://stackoverflow.com/questions/1942298/wrapping-a-c-library-in-python-c-cython-or-ctypes)
 
 ## Verdict
 
