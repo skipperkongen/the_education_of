@@ -1,1 +1,1 @@
-My code while learning unix programming
+# The education of Skipperkongen
