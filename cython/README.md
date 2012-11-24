@@ -14,6 +14,17 @@ On Stackoverflow:
 
 * [Wrapping a C library in Python: C, Cython or ctypes?](http://stackoverflow.com/questions/1942298/wrapping-a-c-library-in-python-c-cython-or-ctypes)
 
+From there I got the easy way to use Cython:
+
+	$ cython mymodule.pyx
+	$ gcc [some arguments here] mymodule.c -o mymodule.so
+
+Which is somewhat easier than the whole setup approach. However for this to work you need Python development version:
+
+	test.c:4:20: error: Python.h: No such file or directory
+	test.c:6:6: error: #error Python headers needed to compile C extensions, please install development version of Python.
+
+
 ## Verdict
 
 Cython creates some seriously bloated C code. The question is whether this is a problem
