@@ -12,6 +12,7 @@ On Cython website
 
 On Stackoverflow:
 
+* [Are there any good reasons why I should not use Python?](http://stackoverflow.com/questions/371966/are-there-any-good-reasons-why-i-should-not-use-python)
 * [Wrapping a C library in Python: C, Cython or ctypes?](http://stackoverflow.com/questions/1942298/wrapping-a-c-library-in-python-c-cython-or-ctypes)
 
 From there I got the easy way to use Cython:
