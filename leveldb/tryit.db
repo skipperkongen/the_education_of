@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 
 import leveldb
+import random
 
 leveldb.DestroyDB('./db')
 db = leveldb.LevelDB('./db')
 
-print "Printing current values in database"
+for i in range(100):
+	db.Put(str(random.random()), str(random.random()))
 
-for k,v in db.RangeIter('a','l'):
+print "Printing values in database for keys in range between 0.4 and 0.6"
+
+for k,v in db.RangeIter('0.4','0.6'):
 	print k,v
